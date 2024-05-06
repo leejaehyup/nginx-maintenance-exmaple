@@ -1,0 +1,11 @@
+version: '2'
+services:
+  nginx:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    container_name: nginx
+    volumes:
+      - ./maintenance:/maintenance
+
