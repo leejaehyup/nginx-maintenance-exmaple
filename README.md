@@ -41,7 +41,7 @@ docker-compose up -d --build
 
 Call http://localhost:4000 in the browser.
 
-You can test it by modifying the files in the maintenance folder.
+You can test it by modifying the files in the `maintenance` folder.
 
 ## Copyright and license
 
