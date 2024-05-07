@@ -1,11 +1,12 @@
-version: '2'
+version: "2"
 services:
   nginx:
     build:
       dockerfile: Dockerfile
     ports:
-      - 80:80
+      - 4000:80
     container_name: nginx
     volumes:
       - ./maintenance:/maintenance
-
+    # It doesn't work in Docker Desktop.
+    # network_mode: "host"
